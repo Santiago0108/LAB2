@@ -81,4 +81,17 @@ $ mvn package
     ```
 - Realice el cambio en la clase App.java para crear un saludo personalizado, basado en los parámetros de entrada a la aplicación.
 
-![image](https://github.com/Santiago0108/LAB2/assets/128636125/4638f848-8204-4061-961b-f5f15f2544e0)
+    ![image](https://github.com/Santiago0108/LAB2/assets/128636125/4638f848-8204-4061-961b-f5f15f2544e0)
+
+    Hicimos estos cambios 
+
+    ![image](https://github.com/Santiago0108/LAB2/assets/128636125/5472b710-f60f-4adf-8c20-e0f4e9ec292a)
+
+    Y aparece esto al hacer la prueba
+
+    ![image](https://github.com/Santiago0108/LAB2/assets/128636125/2f410413-0eb5-42b7-9789-bdaed4f52e15)
+  - Ejecutar la clase con su nombre y apellido como parámetro. ¿Qué sucedió?
+
+    ![image](https://github.com/Santiago0108/LAB2/assets/128636125/ae0cd14f-5e8b-46e8-a3d2-36e426cf1604)
+
+## HACER EL ESQUELETO DE LA APLICACIÓN
