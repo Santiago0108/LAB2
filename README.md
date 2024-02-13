@@ -39,12 +39,46 @@ Para poder crear un proyecto en maven con arquetipos es necesario el siguiete co
 mvn archetype:generate -Dfilter=maven-archetype-quickstart
 ```
 Esto nos generará un proyecto de manera interactiva, lo que después nos solicitará:
-Grupo
-Id del artefacto
-Versión
-Paquete
-Grupo
-Id del artefacto
-Versión
+* Grupo
+* Id del artefacto
+* Versión
+* Paquete
 
-![image](https://github.com/Santiago0108/LAB2/assets/128636125/d9d67803-eb63-40b3-a42d-6b2b5b20c886)
+![image](https://github.com/Santiago0108/LAB2/assets/128636125/43f94a89-65ff-451a-860d-85b04fd2059c)
+
+![image](https://github.com/Santiago0108/LAB2/assets/128636125/78dbe970-2585-4f6b-9c42-19d6a2a4a5b0)
+
+Si nos dirigimos a la carpeta Patterns y escribimos el comando tree,nos mostrara todos los archivos creados por maven:
+
+```bash
+tree
+```
+
+![image](https://github.com/Santiago0108/LAB2/assets/128636125/133df619-02f2-45d4-931c-fe580faa1051)
+
+## AJUSTAR ALGUNAS CONFIGURACIONES EN EL PROYECTO
+
+Modificamos el Pom.xml
+
+![image](https://github.com/Santiago0108/LAB2/assets/128636125/87b1b873-c481-4c91-b661-96871e33a0ab)
+
+## COMPILAR Y EJECUTAR
+
+Para compilar ejecutamos el comando:
+
+```bash
+$ mvn package
+```
+
+![image](https://github.com/Santiago0108/LAB2/assets/128636125/6e46838c-7e86-4c0b-9267-3c302f387431)
+
+- Busque cuál es el objetivo del parámetro "package" y qué otros parámetros se podrían enviar al comando mvn.
+  - El parámetro "package" en el comando Maven (mvn) se utiliza para ejecutar una fase específica del ciclo de vida de construcción de un proyecto Maven. En particular, la fase "package" se encarga de empaquetar el proyecto compilado en un formato específico, como JAR (para proyectos Java), WAR (para proyectos web) o cualquier otro formato de distribución que haya sido configurado en el proyecto.
+- Busque cómo ejecutar desde línea de comandos, un proyecto maven y verifique la salida cuando se ejecuta con la clase App.java como parámetro en "mainClass"
+  - Para ejecutar el proyecto debe ejecutar el siguiente comando:
+    ```bash
+    mvn exec:java -Dexec.mainClass="edu.eci.cvds.patterns.archetype.App"
+    ```
+- Realice el cambio en la clase App.java para crear un saludo personalizado, basado en los parámetros de entrada a la aplicación.
+
+![image](https://github.com/Santiago0108/LAB2/assets/128636125/4638f848-8204-4061-961b-f5f15f2544e0)
