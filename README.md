@@ -4,6 +4,7 @@ Harramienta maven
 Apache Maven es una herramienta de gestión de proyectos que se utiliza principalmente para simplificar y automatizar el proceso de construcción de software en Java. Su mayor utilidad radica en gestionar las dependencias de un proyecto, manejar el ciclo de vida de construcción, y administrar los plugins necesarios para tareas específicas.
 
 Las fases de maven son:
+
 compile: Genera los archivos .class, compilando las fuentes .java. No termina este en caso de que en algún .class haya un error.
 
 test: Ejecuta los test automáticos de JUnit existentes, abortando el proceso si alguno de ellos falla.
