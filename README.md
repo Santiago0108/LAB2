@@ -95,3 +95,20 @@ $ mvn package
     ![image](https://github.com/Santiago0108/LAB2/assets/128636125/ae0cd14f-5e8b-46e8-a3d2-36e426cf1604)
 
 ## HACER EL ESQUELETO DE LA APLICACIÓN
+
+  ![image](https://github.com/Santiago0108/LAB2/assets/128636125/6cfdd794-3a36-4dc7-af6e-aa8bb3289309)
+
+  Hicimos este codigo por el caso de Factory:
+
+  ![image](https://github.com/Santiago0108/LAB2/assets/128636125/ea27b4e1-3eb7-4795-ba07-436d16ffce9d)
+
+  Hacemos las pruebas
+
+  ![image](https://github.com/Santiago0108/LAB2/assets/128636125/d25f42d6-2733-4941-be73-725c0a0d10bf)
+
+  ![image](https://github.com/Santiago0108/LAB2/assets/128636125/ce612697-0f9e-4cc5-a953-6022a912dc30)
+
+  ![image](https://github.com/Santiago0108/LAB2/assets/128636125/457d1d2d-ad56-4908-99ca-8aa0589b7c22)
+
+- ¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?
+  - Sirven las especificadas en el caso de el Factory ya que el switch case solo toma los validos    
